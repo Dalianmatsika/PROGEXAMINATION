@@ -13,7 +13,6 @@ public class Product implements IProduct {
         return productName;
     }
 
-    // Add this getter method so other classes can access monthly sales
     public int[] getMonthlySales() {
         return monthlySales;
     }
