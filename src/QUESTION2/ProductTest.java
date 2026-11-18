@@ -29,7 +29,6 @@ public class ProductTest {
     @Test
     public void testGetTotal_WithValidData_ReturnsCorrectValue() {
         ProductCalculations calc = new ProductCalculations(3500.0);
-        // 3500 + 525 (VAT) + 175 (Commission) = 4200.0
         assertEquals(4200.0, calc.GetTotal(), 0.01);
     }
 }
