@@ -15,12 +15,7 @@ public class Main {
             for (int month = 0;month < 3; month++){
                 System.out.print("Enter number of sales for month" +(month+1)
                         +"for" + productNames[i] + "mattress:");
-                salesData[i][month] = scanner.nextInt();
             }
-            System.out.println();
-            products[i] = new Product(productNames[i],salesData[i]);
         }
-        PrintProducts.printReport(products);
-        scanner.close();
     }
 }
