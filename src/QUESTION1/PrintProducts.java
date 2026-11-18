@@ -27,6 +27,5 @@ public class PrintProducts {
                 System.out.println("TOTAL PRODUCT SALES: " + grandTotal);
                 System.out.println("AVERAGE PRODUCT SALES: " + Math.round(totalAverageSum / products.length));
                 System.out.println("MOST POPULAR PRODUCT: " + mostPopularName);
-                System.out.println("**************************************************");
         }
 }
