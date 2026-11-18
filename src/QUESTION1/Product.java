@@ -1,3 +1,5 @@
+package QUESTION1;
+
 public class Product implements IProduct {
     private String productName;
     private int[] monthlySales;

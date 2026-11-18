@@ -1,3 +1,5 @@
+package QUESTION1;
+
 public class PrintProducts {
         public static void printReport(Product[] products) {
                 System.out.println("PRODUCT SALES REPORT - 2026");
@@ -14,7 +16,7 @@ public class PrintProducts {
 
                         // If you want to check the max single-month sale to match the screenshot (25)
                         // or use p.GetTotalProductsSold() if you prefer the full sum:
-                        int[] sales = p.getMonthlySales(); // Make sure to add a getter for monthlySales in Product if needed
+                        int[] sales = p.getMonthlySales(); // Make sure to add a getter for monthlySales in QUESTION1.Product if needed
                         for (int monthlySale : sales) {
                                 if (monthlySale > maxSingleMonthSales) {
                                         maxSingleMonthSales = monthlySale;

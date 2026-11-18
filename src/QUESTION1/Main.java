@@ -1,3 +1,5 @@
+package QUESTION1;
+
 import java.util.Scanner;
 
 public class Main {
